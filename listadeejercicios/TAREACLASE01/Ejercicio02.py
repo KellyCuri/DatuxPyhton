@@ -1,0 +1,26 @@
+# 2. CALCULE EL AREA DE UN CIRCULO, TRIANGULO Y CUADRADO
+
+#CIRCULO
+print("EL AREA DE UN CIRCULO ES PI X R^2")
+print ("COLOCAR EL VALOR DE RADIO")
+r=int(input())
+resultado=r**2
+print("COLOCASTE R IGUAL A:",r , "EL RESULTADO DEL AREA DEL CIRCULO ES",resultado)
+
+
+#TRIANGULO
+print("EL AREA DE UN TRIANGULO ES BxA/2")
+print ("COLOCAR EL VALOR DE LA BASE")
+B=int(input())
+print ("COLOCAR EL VALOR DE LA ALTURA")
+A=int(input())
+resultado=(B*A)/2
+print("COLOCASTE BASE Y ALTURA :", B, "Y" ,A ,"EL REULTADO DEL AREA DEL TRIANGULO ES",resultado)
+
+
+#CUADRADO
+print("EL AREA DE UN CUADRADO ES L^2")
+print ("COLOCAR EL VALOR DEL LADO")
+L=int(input())
+resultado=L**2
+print("COLOCASTE LADO: ", L,"EL REULTADO DEL AREA DEL CUADRADO",resultado)

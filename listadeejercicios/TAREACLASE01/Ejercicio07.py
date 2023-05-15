@@ -1,0 +1,9 @@
+# 7. VALORES IGUALES O DIFERENTES
+
+print("INGRESAR EL PRIMER VALOR ")
+dato1=int(input())
+print("INGRESAR EL SEGUNDO VALOR ")
+dato2=int(input())
+if(dato1<dato2):
+    print("EL PRIMER VALOR ES MENOR QUE EL SEGUNDO VALOR")
+else: print("EL PRIMER VALOR ES MAYOR O IGUAL QUE EL SEGUNDO")
