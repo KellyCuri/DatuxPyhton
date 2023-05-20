@@ -1,3 +1,5 @@
+#Definir una función que retorne el mayor valor al ingresar 2 números
+
 def obtener_mayor(numero1, numero2):
     if numero1 > numero2:
         return numero1
