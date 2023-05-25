@@ -1,7 +1,9 @@
-# csv(<ruta archivo>, sep=<separador datos>)
+# Convierte los datos a un diccionario
+data = df.to_dict(orient='records')
+print(df)
 
-import pandas as pd
-df = pd.read_csv('C:/Users/kelly/OneDrive/Escritorio/Workspacedatux/DatuxPyhton/ejemplo.csv',sep=';')
-#print(df.shape) cantidad por filas y columnas
-# tail -> retorna los últimos 5 resultados del df
-print(df.tail())
+import json
+
+# Guarda los datos en un archivo JSON
+with open('ejemplo3.json', 'w') as f:
+    json.dump(data, f)
