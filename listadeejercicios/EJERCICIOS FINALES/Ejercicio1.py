@@ -16,7 +16,7 @@ def obtener_tipo_cambio():
         venta = data['venta']
 
         # Insertar los datos en la base de datos
-        conn = sqlite3.connect('DATAAPIKELLY.db')
+        conn = sqlite3.connect('DATAAPIDEKELLY.db')
         cursor = conn.cursor()
 
         # Crear la tabla si no existe
