@@ -2,7 +2,7 @@
 import pandas as pd
 
 # Lee el archivo de Excel
-df = pd.read_excel('C:/Users/kelly/OneDrive/Escritorio/Workspacedatux/DatuxPyhton/listadeejercicios/ejemplo2.xlsx')
+df = pd.read_excel('C:/Users/kelly/OneDrive/Escritorio/Workspacedatux/DatuxPyhton/LISTA DE EJERCICIOS/ejemplo2.xlsx')
 
 # Convirtiendo mis datos del excel en un diccionario
 data = df.to_dict(orient='records')
